@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junior Developer | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">&lt;/&gt; devfolio<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#education">Education</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle"
+        aria-label="Switch color theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AVAILABLE TO LEARN & GROW</p>
+        <h1>Hello, I'm <span class="gradient-text">Jester</span><br>
+          Junior Developer<span class="accent">_</span>
+        </h1>
+        <p class="hero-description">
+          An aspiring IT professional who enjoys solving problems,
+          building useful digital experiences, and learning something
+          new every day.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">
+            Get in touch ↗
+          </a>
+          <a class="button button-quiet" href="#about">
+            Explore Portfolio ↓
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>⌘ BS Information Technology</span>
+          <span>⌖ Philippines</span>
+        </div>
+      </div>
+
+      <!-- Code card -->
+      <div class="hero-visual reveal">
+        <div class="profile-card">
+          <div class="profile-top">
+            <span class="window-dot pink"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="card-label">profile.js</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent"><span class="code-blue">name</span>:
+              <span class="code-green">'Jester Nicholai S. Mansalapus'</span>,</p>
+            <p class="indent"><span class="code-blue">BS</span>:
+              <span class="code-green">'Information and Technology'</span>,</p>
+            <p class="indent"><span class="code-blue">role</span>:
+              <span class="code-green">'Junior Developer'</span>,</p>
+            <p class="indent"><span class="code-blue">curious</span>: true,</p>
+            <p class="indent"><span class="code-blue">learning</span>:
+              <span class="code-green">'Every day'</span></p>
+            <p>};</p>
+            <p class="code-comment">// building one idea at a time</p>
+          </div>
+
+          <div class="profile-bottom">
+            <span class="pulse"></span> Open to opportunities
+          </div>
+        </div>
+        <div class="floating-chip chip-top">✦ Creative problem solver</div>
+        <div class="floating-chip chip-bottom">&lt;/&gt; Turning ideas into code</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">
+            I'm an aspiring developer with a growing passion for
+            technology, design, and building things that make life easier.
+          </p>
+          <p>
+            As a Bachelor of Science in Information Technology (BSIT)
+            student, I'm developing my skills in programming, web
+            development, and problem-solving.
+          </p>
+        </div>
+
+        <div class="detail-panel reveal">
+          <div class="detail-row">
+            <span class="detail-icon">♙</span>
+            <div>
+              <span class="detail-label">FULL NAME</span>
+              <strong>Jester Nicholai S Mansalapus</strong>
+            </div>
+          </div>
+
+          <div class="detail-row">
+            <span class="detail-icon">⌖</span>
+            <div>
+              <span class="detail-label">ADDRESS</span>
+              <strong>Balanga City, Bataan, Philippines</strong>
+            </div>
+          </div>
+
+          <div class="detail-row">
+            <span class="detail-icon">✉</span>
+            <div>
+              <span class="detail-label">EMAIL ADDRESS</span>
+              <strong>jestermansalapus@example.com</strong>
+            </div>
+          </div>
+
+          <div class="detail-row">
+            <span class="detail-icon">☎</span>
+            <div>
+              <span class="detail-label">CONTACT NUMBER</span>
+              <strong>+63 9XX XXX XXXX</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / EDUCATION</p>
+        <h2>Where I'm <span class="gradient-text">learning.</span></h2>
+        <p class="section-subtitle">
+          The foundation I'm building for my future in technology.
+        </p>
+      </div>
+
+      <article class="education-card reveal">
+        <div class="education-icon">⌘</div>
+        <div class="education-info">
+          <span class="tag">CURRENT COURSE</span>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <p class="school-name">Eastwoods Professional College of Science and Technology </p>
+          
+        </div>
+        <div class="education-year">BSIT<span>Degree</span></div>
+      </article>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SKILLS</p>
+        <h2>Tools I'm <span class="gradient-text">exploring.</span></h2>
+        <p class="section-subtitle">
+          Update these skills to match what you know and practice.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-symbol html-symbol">5</span>
+          <h3>HTML</h3>
+          <p>Structuring clear, accessible web pages.</p>
+          <div class="skill-track"><span style="width:72%"></span></div>
+          <small>Learning & practicing</small>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-symbol css-symbol">✳</span>
+          <h3>CSS</h3>
+          <p>Styling responsive and engaging layouts.</p>
+          <div class="skill-track"><span style="width:64%"></span></div>
+          <small>Learning & practicing</small>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-symbol js-symbol">JS</span>
+          <h3>JavaScript</h3>
+          <p>Adding interactions and dynamic behavior.</p>
+          <div class="skill-track"><span style="width:45%"></span></div>
+          <small>Currently learning</small>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-symbol ui-symbol">◈</span>
+          <h3>UI / UX Design</h3>
+          <p>Thinking about usability and visual clarity.</p>
+          <div class="skill-track"><span style="width:52%"></span></div>
+          <small>Practicing</small>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-copy">
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Let's build<br>something <span class="gradient-text">great.</span></h2>
+          <p>
+            Have a project idea, internship opportunity, or just want
+            to connect? Send me a message.
+          </p>
+          <div class="contact-quick">✉ your.email@example.com</div>
+          <div class="contact-quick">☎ +63 9XX XXX XXXX</div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="visitorName">Your name</label>
+          <input id="visitorName" name="visitorName"
+            type="text" placeholder="Enter your name" required>
+
+          <label for="visitorEmail">Your email</label>
+          <input id="visitorEmail" name="visitorEmail"
+            type="email" placeholder="name@example.com" required>
+
+          <label for="visitorMessage">Message</label>
+          <textarea id="visitorMessage" name="visitorMessage"
+            rows="4" placeholder="Write your message..." required></textarea>
+
+          <button class="button button-primary submit-button" type="submit">
+            Prepare message ↗
+          </button>
+          <p class="form-note" id="formNote" aria-live="polite">
+            This opens your email app with your message ready to send.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home">&lt;/&gt; devfolio<span>.</span></a>
+    <p>Designed with curiosity and built with code.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+    <span class="copyright">© <span id="year"></span> Your Name</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
